@@ -1,0 +1,65 @@
+﻿body {
+    background-color: white;
+    color: azure;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.contiene {
+    background-color: #621717;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    inline-size: auto;
+    width: 90%; /* Ancho para que se ajuste a la pantalla */
+    max-width: 600px; /* Ancho para que no se expanda demasiado */
+    padding-right: 100px;
+    padding-left: 100px;
+    /*display:flex;*/
+    justify-content: center; /*Centra horizontalmente los divs*/
+    align-items: center; /* Centra verticalmente los divs*/
+    height: 200vh;
+}
+
+
+
+    .contiene label {
+        padding: 10px 0px;
+        font-size: 18px;
+        display:block;
+    }
+
+    .contiene h3 {
+        padding: 10px 0;
+        margin: 10px 0;
+        border-radius: 10px;
+        background-color: #231F20;
+        border: 1px;
+    }
+
+    .contiene button {
+        
+        margin: 5px 0px;
+        background-color: #8F3F3F;
+        color: ghostwhite;
+        padding: 10px 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+        .contiene button:hover {
+            background-color: #a52222;
+            transform: scale(1.05);
+        }
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+  

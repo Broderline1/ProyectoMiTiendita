@@ -1,0 +1,117 @@
+﻿.inicio {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #621717;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.logo{
+    display:flex;
+    flex: auto;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+    .user-info span {
+        margin-right: 10px;
+    }
+
+    .user-info img {
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+.nav-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+    .nav-button:hover {
+        background-color: black;
+        transition: background-color 1s ease;
+        border-radius: 10px;
+    }
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.menu-option {
+    background-color: #d32f2f; /* Fondo rojo */
+    color: white; /* Texto blanco */
+    width: 150px; /* Ancho del botón */
+    height: 150px; /* Alto del botón */
+    margin: 0 10px; /* Márgenes laterales */
+    display: flex; /* Utiliza flexbox para centrar contenido */
+    flex-direction: column; /* Coloca la imagen y el texto en columna */
+    align-items: center; /* Centra el contenido horizontalmente */
+    justify-content: center; /* Centra el contenido verticalmente */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a mano */
+    border: none; /* Sin borde por defecto */
+    transition: background-color 0.3s ease; /* Transición suave en hover */
+    text-decoration: none; /* Quitar subrayado del texto */
+}
+
+    .menu-option:hover {
+        background-color: #b71c1c; /* Cambia a un rojo más oscuro al pasar el cursor */
+    }
+
+    .menu-option img {
+        width: 60px; /* Tamaño de la imagen */
+        height: 60px;
+        margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+    }
+
+    .menu-option span {
+        font-size: 16px; /* Tamaño del texto */
+        font-weight: bold; /* Texto en negrita */
+    }
+
+
+.venta {
+    background-color: #B22222;
+}
+
+.productos {
+    background-color: #B84141;
+}
+
+.informe {
+    background-color: #8F3F3F;
+}
+
+.cuentas {
+    background-color: #BD6C6C;
+}
+
+#manualyAyuda{
+    border-radius: 15px;
+}

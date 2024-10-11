@@ -1,0 +1,79 @@
+﻿
+#ti {
+    font-size: 38px;
+}
+.vers {
+    background-color: #741919;
+    color: honeydew;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+h2 {
+    background-color: #621717;
+    border-radius: 10px;
+}
+
+.main-content {
+    background-color: #621717;
+    color: white;
+    padding: 20px;
+    flex: 1;
+}
+
+.table-container 1{
+    background-color: #621717;
+    padding: 10px;
+}
+
+.recently-added {
+    display: flex;
+    align-items: center; /* Centra la imagen con el texto */
+}
+    .recently-added h3 {
+        margin-right: 10px; /* Espacio entre el texto y la imagen */
+    }
+     .recently-added img {
+        max-width: 50px; /* Ajusta el tamaño de la imagen */
+        height: auto;
+     }
+
+
+.campos{
+    padding: 10px;
+    border: 1px solid #A40000;
+}
+
+body{
+    background-color:azure;
+}
+
+.gridview-class {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+
+    .gridview-class th {
+        border: 1px solid #ddd;
+        background-color: brown;
+        color: white;
+        padding: 12px;
+        text-align: left;
+    }
+
+    #gvHistorial {
+        display: flex;
+        color: black;
+    }
+
+.gridview-class tr:hover {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+}
+
+    .gridview-class tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }

@@ -1,0 +1,102 @@
+﻿/* Contenedor principal para centrar ambos bloques */
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Asegura que el contenido esté centrado verticalmente */
+    background-color:brown; /* Color de fondo */
+}
+
+/* Estilos para los contenedores individuales */
+.card {
+    background-color: #4d0e0e; /* Color de fondo de las tarjetas */
+    padding: 20px;
+    border-radius: 15px;
+    margin: 0 20px; /* Espacio entre las dos tarjetas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para dar efecto de elevación */
+    color: #fff;
+    width: 800px; /* Ajusta el ancho según sea necesario */
+}
+
+
+/* Estilo para los botones */
+button, .input-text {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos de los botones individuales */
+.input-text {
+    background-color: #3a0d0d;
+    color: #fff;
+    width: 700px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+button.elegir, button.guardar, .eliminar {
+    background-color: #d14d4d;
+    color: #fff;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Estilo para los bloques de usuario */
+.usuario {
+    background-color: #2e2e2e;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .usuario.admin {
+        background-color: #231f20;
+    }
+
+    .usuario1 {
+        background-color: #b22222;
+    }
+
+    .usuario2 {
+       background-color: #320f0f;
+
+    }
+
+    .usuario .rol {
+        background-color: #3a0d0d;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+
+/* Ajusta el diseño de texto */
+h2, h3 {
+    font-weight: normal;
+    color: #fff;
+}
+
+.agregar-btn {
+    background-color: #4d0e0e;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .agregar-btn:hover {
+        background-color: #3a0d0d;
+    }

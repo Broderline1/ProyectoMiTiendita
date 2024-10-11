@@ -1,0 +1,52 @@
+﻿.envioEmail {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#Abarrotes-Logo {
+    font-size: 30px;
+}
+
+.header {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .header img {
+        height: 50px;
+    }
+
+.FEED {
+    background-color: #FFFFFF;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.image-button {
+    background: none;
+    border: none;
+    padding: 0;
+    width: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #d32f2f; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+    text-decoration: none; /* Quitar subrayado */
+    border-radius: 12px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor a mano */
+}
+
+.button:hover {
+    background-color: #b71c1c; /* Color de fondo al pasar el mouse */
+}
